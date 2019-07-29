@@ -1,0 +1,58 @@
+body{background-image: url(https://wallpapercave.com/wp/wp2634902.jpg); margin: 0px 0px 0px 0px; height: 200%;}
+
+#header{background-color: rgb(23, 156, 79); color: whitesmoke; height: 70px;width: 100%; position: sticky;
+     top:0px; margin-bottom: 0px;}
+
+#menu{background-color: teal; font-size: 50px; text-align: center; transition: 1s; }
+.hel{float: left; height: 40px; width: 40px; margin: 10px 20px 10px 20px; color: white; 
+    border: solid 3px white; background-color: teal; font-size: 35px; cursor: pointer;transition: 1s;
+}
+#close{ display: none; text-align: center;transition: 1s;}
+h1{ display: inline; font-size: 60px; padding-bottom: 5px; padding-left: 10px;}
+#body{height: 1000px;background-color: rgba(245, 245, 245, 0.551);}
+form{display: inline;transition: 1s;}
+#searchbar{width:0px; height: 30px;border: solid 0px black; border-radius: 5px; margin-bottom: 50px;transition: 1s; }
+form{ margin-bottom: 10px; margin-top: 10px; float: right;transition: 1s; } 
+#butse{height: 40px; width: fit-content;font-size: 25px;cursor: pointer; display: inline-block; transition: 1s;
+     color: rgb(73, 73, 73); background-color: rgb(0, 255, 106); border: solid black 3px;
+      border-radius: 5px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; padding: 0px 5px 0px 5px;}
+#signup{height: 30px; width: fit-content; border: solid 3px white; float: right; 
+    margin: 5px 40px 10px 30px; border-radius: 30px; padding: 5px 10px 20px 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 35px  }
+#signup:hover{background-color: rgb(113, 231, 16);cursor: pointer; color: rgb(73, 73, 73); border: rgb(73, 73, 73) solid 3px;}
+#butse:hover{background-color: teal; color: white;transition: 1s;}
+#sercol{display: none;transition: 1s; position: relative; right: 30px; color: rgb(61, 61, 61); font-size: 25px; top: 5px;
+cursor: default;}
+#sidli{list-style: none; padding-left: 0px;transition: 1s;}
+#sidebar{transition: 1s; width:0px; background-color: rgb(56, 56, 56);
+     position: sticky;top: 70px;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left; }
+
+.sidit:hover{background-color: rgb(80, 80, 80); margin-left: 30px; transition: 1s}
+.sidit{height: 50px; width: inherit; color: whitesmoke ; padding: 15px 5px 10px 20px; 
+    transition: 1s;
+font-size: 25px;}
+
+#l1{border-left: solid 10px violet}
+#l2{border-left: solid 10px blue}
+#l3{border-left: solid 10px green}
+#l4{border-left: solid 10px yellow}
+#l5{border-left: solid 10px rgb(255, 136, 0)}
+#l6{border-left: solid 10px red}
+
+#about{width: inherit; font-size: 25px; color: gray; text-align: center; padding-bottom: 2px;}
+
+.arrli{display: none; float: right; transition: 1s}
+.sidit:hover .arrli{display: inline;}
+#pab:hover{color: white; cursor: pointer;}
+#pab{text-align: center}
+#content{display: inline-block; background-color: violet; height:auto; width: 100%;
+}
+
+
+
+
+
+
+
+
