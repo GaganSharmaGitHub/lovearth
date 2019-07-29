@@ -1,7 +1,7 @@
-body{background-image: url(https://wallpapercave.com/wp/wp2634902.jpg); margin: 0px 0px 0px 0px; height: 200%;}
+body{background-image: url(https://wallpapercave.com/wp/wp2634902.jpg); margin: 0px 0px 0px 0px; height: 1400px;}
 
 #header{background-color: rgb(23, 156, 79); color: whitesmoke; height: 70px;width: 100%; position: sticky;
-     top:0px; margin-bottom: 0px;}
+     top:0px; margin-bottom: 0px;z-index: 50;}
 
 #menu{background-color: teal; font-size: 50px; text-align: center; transition: 1s; }
 .hel{float: left; height: 40px; width: 40px; margin: 10px 20px 10px 20px; color: white; 
@@ -9,7 +9,7 @@ body{background-image: url(https://wallpapercave.com/wp/wp2634902.jpg); margin: 
 }
 #close{ display: none; text-align: center;transition: 1s;}
 h1{ display: inline; font-size: 60px; padding-bottom: 5px; padding-left: 10px;}
-#body{height: 1000px;background-color: rgba(245, 245, 245, 0.551);}
+#body{height: 1000px;background-color: rgba(245, 245, 245, 0);}
 form{display: inline;transition: 1s;}
 #searchbar{width:0px; height: 30px;border: solid 0px black; border-radius: 5px; margin-bottom: 50px;transition: 1s; }
 form{ margin-bottom: 10px; margin-top: 10px; float: right;transition: 1s; } 
@@ -26,7 +26,7 @@ cursor: default;}
 #sidli{list-style: none; padding-left: 0px;transition: 1s;}
 #sidebar{transition: 1s; width:0px; background-color: rgb(56, 56, 56);
      position: sticky;top: 70px;font-family: Verdana, Geneva, Tahoma, sans-serif;
-    float: left; }
+    display: none;float: left; margin-right: 40px}
 
 .sidit:hover{background-color: rgb(80, 80, 80); margin-left: 30px; transition: 1s}
 .sidit{height: 50px; width: inherit; color: whitesmoke ; padding: 15px 5px 10px 20px; 
@@ -45,14 +45,40 @@ font-size: 25px;}
 .arrli{display: none; float: right; transition: 1s}
 .sidit:hover .arrli{display: inline;}
 #pab:hover{color: white; cursor: pointer;}
-#pab{text-align: center}
-#content{display: inline-block; background-color: violet; height:auto; width: 100%;
+
+#content{background-color: rgba(128, 128, 128, 0.566); height:inherit; width: 90%;
+    margin: 0px 20px 10px 10px; padding: 50px 50px 50px 50px;
 }
+#shb{padding: 5px 0px 5px 0px;
 
+    font-size:48px;color:white;
+    float: right;
+    animation: wob 0.5s infinite;
+position: sticky;
+animation-direction: alternate;
+bottom: 20px;
+left: 0px;
+background-color:rgb(46, 145, 179);
+border-radius: 50%;
+border: none;
+cursor: pointer;
+height: 100px; width: 100px;  border: solid black 3px; border-radius: 50%;}
 
-
-
-
+@keyframes wob{
+    from{transform: rotate(10deg)}
+    to{transform: rotate(-10deg)}
+}
+#tail{height: 300px; background-color: black; margin: 20px 20px 20px 20px;color: rgb(179, 179, 179);
+     display: block; position: relative; top: 100px;padding: 50px 50px 50px 50px}}
+h3{color: rgb(255, 255, 255);}
+#lang{list-style: none; }
+video{ border: 2px solid black; margin-top: 50px; }
+#climcon{
+    width: 700px; background-color: rgb(59, 155, 155);
+    font-size: 20px;float: right; display: block;border-radius: 10%;
+    padding: 20px 20px 20px 20px; margin-top: 0px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     height: fit-content; color: black}
 
 
 

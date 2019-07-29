@@ -14,16 +14,20 @@ function closemenu()
 {document.getElementById('sidebar').style.width="0px";
 document.getElementById('sidebar').style.display="none";
 document.getElementById('close').style.display="none";
-document.getElementById('menu').style.display="block"
+document.getElementById('menu').style.display="block";
+
+document.getElementById('climcon').style.width="700px"
+document.getElementById('content').style.width="90%"
 
 
 }
  function openmenu()
  {document.getElementById('sidebar').style.display="block";
  document.getElementById('menu').style.display="none";
- document.getElementById('sidebar').style.width="20%"
- document.getElementById('close').style.display="block"
- document.getElementById('content').style.width="80%"
-
+ document.getElementById('sidebar').style.width="25%"
+ document.getElementById('close').style.display="block";
+ 
+ document.getElementById('climcon').style.width="400px"
+ 
 
 }
