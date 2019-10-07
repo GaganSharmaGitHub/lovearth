@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html  >
     <head>
         <title>Home</title>
         <link rel="stylesheet" href="home.css">
         <link rel="icon" href="https://images.vexels.com/media/users/3/157970/isolated/lists/c156b4270aea292b9b335dd463ea17eb-earth-planet-icon-earth-icon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-JO1wKepU9Tm_stu-Tpyp193UyeURf_M&callback=initMap"
+            type="text/javascript"></script>
         <script src="home.js"></script>
         <div id="header">
           <div class="hel" id="menu" onclick="openmenu()">&#8801;</div>
@@ -30,24 +33,164 @@
                 <div id="about"><p id="pab">About us</p></div>
             </div>
             <div id="content">
-                <video autoplay loop>
-                    <source src="https://download.videvo.net/videvo_files/video/free/2018-11/small_watermarked/181012_006_preview.webm" type="video/webm">
+                <video autoplay loop muted>
+                    <source src="C:\Users\welcome\Downloads\aw.mp4" type="video/mp4" >
                 </video>
-            <p id="climcon">Climate change occurs when changes in Earth's climate system result in new weather patterns that last for at least a few decades, and maybe for millions of years. The climate system comprises five interacting parts, the atmosphere (air), hydrosphere (water), cryosphere (ice and permafrost), biosphere (living things), and lithosphere (earth's crust and upper mantle). The climate system receives nearly all of its energy from the sun, with a relatively tiny amount from earth's interior. The climate system also gives off energy to outer space. The balance of incoming and outgoing energy, and the passage of the energy through the climate system, determines Earth's energy budget. When the incoming energy is greater than the outgoing energy, earth's energy budget is positive and the climate system is warming. If more energy goes out, the energy budget is negative and earth experiences cooling.
-                </div>
-        </div>
+            <p id="climcon">Climate change occurs when changes in Earth's climate 
+                system result in new weather patterns that last for at least a few decades, and maybe for
+                 millions of years. The climate system comprises five interacting parts, the atmosphere (air), 
+                 hydrosphere (water), cryosphere (ice and permafrost), biosphere (living things), and lithosphere 
+                 (earth's crust and upper mantle). The climate system receives nearly all of its energy from the sun,
+                  with a relatively tiny amount from earth's interior. The climate system also gives off energy to outer space. The balance of incoming and outgoing energy, and the passage of the energy through the climate system, determines Earth's energy budget. When the incoming energy is greater than the outgoing energy, earth's energy budget is positive and the climate system is warming. 
+                If more energy goes out, the energy budget is negative and earth experiences cooling.</p><br>
+                    <div id="projects">
+                            <div id="projti">OUR PROJECTS<i class="fa fa-info-circle" id="ifcir"></i></div>
+                            <div id="projcon">
+                                <div id="project1" class="project">
+                                    <div class="proimc">
+                                    <img src="http://tanamen.com/img/d_default/electric-motor-animation-gif/electric-motor-animation-gif-wikimedia-5c74cd88c76a6.gif" class="proim">
+                                    <div class="prov" id="prov1"><h4 class="evm">Electric vehicles</h4>
+                                        An electric vehicle, also called an EV, uses one or more
+                                         electric motors or traction motors for propulsion. An electric vehicle may 
+                                         be powered through a collector...... 
+                                         <br> <button class="mobut">More</button>
+                                    </div>
+                                
+                            </div>
+                            <div class="likeunli">
+                                <div class="like"><input type="checkbox" id="heart1" class="heart"/><label for="heart1"><i class="fa fa-heart"></i> Like</label></div>
+                                
+                                <div class="unlike"><input type="checkbox" id="thumbd1" class="thumbd" />
+                                    <label for="thumbd1">
+                                    <i class="fa fa-thumbs-down"></i> Unlike</label></div>
+
+                            </div>
+                                </div>
+                                <div id="project2" class="project">
+                                        <div class="proimc">
+                                        <img src="https://thumbs.gfycat.com/HardOrnateGermanshepherd-size_restricted.gif" class="proim">
+                                        <div class="prov" id="prov2"><h4 class="evm">Carbon Reduction</h4>
+                                            Global warming is a long-term rise in the average temperature of the Earth's climate system,
+                                             an aspect of climate change shown by temperature measurements and by multiple......<br>
+                                            <button class="mobut">More</button>
+                                            </div>
+                                    
+                                </div>
+                                <div class="likeunli">
+                                    <div class="like"><input type="checkbox" id="heart2" class="heart"/><label for="heart2"><i class="fa fa-heart"></i> Like</label></div>
+                                    
+                                    <div class="unlike"><input type="checkbox" id="thumbd2" class="thumbd" />
+                                        <label for="thumbd2">
+                                        <i class="fa fa-thumbs-down"></i> Unlike</label></div>
+    
+                                </div>
+                                    </div>
+                                
+                                    <div id="project3" class="project">
+                                            <div class="proimc">
+                                            <img src="http://giphygifs.s3.amazonaws.com/media/Jc5OESOIN3ALm/giphy.gif" class="proim">
+                                            <div class="prov" id="prov3"><h4 class="evm">Energy sloutions</h4> 
+                                                    Renewable energy is energy that is collected from renewable resources, which are naturally
+                                                     replenished on a human timescale, such as sunlight, wind, rain, tides, waves......
+                                                     <br><button class="mobut">More</button>
+
+                                            </div>
+                                        
+                                    </div>
+                                    <div class="likeunli">
+                                        <div class="like">
+                                            <input type="checkbox" id="heart3" class="heart"/>
+                                            <label for="heart3"><i class="fa fa-heart"></i> Like</label></div>
+                                        
+                                        <div class="unlike">
+                                            <input type="checkbox" id="thumbd3" class="thumbd" />
+                                            <label for="thumbd3">
+                                            <i class="fa fa-thumbs-down"></i> Unlike</label></div>
+        
+                                    </div>
+                                        </div>
+                                        <div id="project4" class="project">
+                                                <div class="proimc">
+                                                <img src="https://i.gifer.com/7JuI.gif" class="proim">
+                                                <div class="prov" id="prov4"><h4 class="evm">Ocean Plastic</h4> 
+                                                        Right now an estimated 12.7 million tonnes of plastic
+                                                         – everything from plastic bottles and bags to microbeads – end up in our oceans each year 
+                                                         That’s a truck load of rubbish....... <br>
+                                                         <button class="mobut">More</button> 
+                                                </div>
+                                            
+                                        </div>
+                                        <div class="likeunli">
+                                            <div class="like"><input type="checkbox" id="heart4" class="heart"/><label for="heart4"><i class="fa fa-heart"></i> Like</label></div>
+                                            
+                                            <div class="unlike">
+                                                    <input type="checkbox" id="thumbd4" class="thumbd" />
+                                                    <label for="thumbd4">
+                                                    <i class="fa fa-thumbs-down"></i> Unlike</label></div>
+            
+                                        </div>
+                                            </div>
+                            </div>
+                            <div id="seeall"><i class="fa fa-plus-circle"></i> View all</div>
+                           </div>    
+            </div>
+                
+        </div> <hr>
         <div id="tail">
-            <div>
+            <div style="display: inline-block"  class="tailcomp">
 <h3>Languages</h3>
 <ul id="lang">
     <li>English</li>
-    <li>french</li>
-    <li>German</li>
-    <li>Hindi</li>
+    <br>
+    <li>русский</li>
+    <br>
+    <li>français</li>
+    <br>
+    <li>Deutsche</li><br>
+    <li>हिंदी</li><br>
+    <li>日本人</li>
 </ul>
-
             </div>
+            
+
+
+<div id="followus" class="tailcomp">
+    <h3>Follow Us:</h3>
+    <ul id="foli">
+
+<li><img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png" class="folimg">Facebook</li>
+<li><img src="https://www.freeiconspng.com/uploads/logo-twitter-circle-png-transparent-image-1.png" class="folimg">Twitter</li>
+<li><img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png" class="folimg">Instagram</li>
+<li><img src="https://cdn0.iconfinder.com/data/icons/social-media-2092/100/social-36-512.png" class="folimg">Reddit</li>
+<li><img src="https://cdn1.iconfinder.com/data/icons/social-media-set-for-free/32/tumblr-512.png" class="folimg">Tumblr</li>
+    </ul>
+</div>
+<div id="cdivi">
+Website designed by:<br><div id="credit">
+                
+        <div id="pop"><img src="https://i.pinimg.com/280x280_RS/d6/93/8c/d6938cd0e4a58dd9ebceaf1edeb81f2a.jpg" height="200px" style="float: left; border-radius: 20%;">
+            <div id="name" style="margin-left: 10px;">Gagan Sharma<br> Follow me on:<br>
+            <img src="https://simply-communicate.com/wp-content/uploads/2019/03/facebook-2661207_960_720.jpg" class="social">
+            <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-twitter-512.png" class="social">
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/418PuxYS63L.png" class="social">
+            <img src="https://www.freeiconspng.com/uploads/discord-icon-7.png" class="social">
+            <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png" class="social">
         </div>
+        </div>
+        <a target="_blank" style="color:white; text-decoration: none;" href="https://github.com/codeongags/">
+        <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/github-512.png" height="50px">
+        &#47; codeongags</a>
+    </div>
+</div>
+<div id="Map" style="width:300px;height:300px;" class="tailcomp">
+    Find Us:
+<img src="https://i.ytimg.com/vi/wtXFWU4r9FQ/maxresdefault.jpg" id="mapim"></div>
+
+        </div>
+
+
+
+
         <div id="shb"><img id="imbulb" src="https://image.flaticon.com/icons/svg/1061/1061042.svg"></div>
     </body>
 </html>
