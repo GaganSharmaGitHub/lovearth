@@ -25,7 +25,7 @@ document.getElementById('projects').style.width="100%"
  { 
     document.getElementById('body').style.height="1500px";
     document.getElementById('menu').style.display="none";
- document.getElementById('sidebar').style.width="22%"
+ document.getElementById('sidebar').style.width="400px";
  document.getElementById('close').style.display="block";
  document.getElementById('climcon').style.width="30%"
  document.getElementById('projects').style.width="1000px"

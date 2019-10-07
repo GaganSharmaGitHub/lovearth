@@ -1,7 +1,7 @@
-body{background-image: url(https://wallpapercave.com/wp/wp2634902.jpg); margin: 0px 0px 0px 0px; height: 1400px;
+body{background-image: url(https://wallpapercave.com/wp/wp2634902.jpg); margin: 0px 0px 0px 0px; height: fit-content;
 font-family: Arial, Helvetica, sans-serif}
 
-#header{background-color: rgb(23, 156, 79); color: whitesmoke; height: 70px;width: 100%; position: sticky;
+#header{background-color: rgb(23, 156, 79); color: whitesmoke; height: fit-content;width: 100%; position: sticky;
      top:0px; margin-bottom: 0px;z-index: 50;}
 
 #menu{background-color: teal; font-size: 50px; text-align: center; transition: 1s; }
@@ -10,15 +10,15 @@ font-family: Arial, Helvetica, sans-serif}
 }
 #close{ display: none; text-align: center;transition: 1s;}
 h1{ display: inline; font-size: 60px; padding-bottom: 5px; padding-left: 10px;}
-#body{height: 1000px;background-color: rgba(245, 245, 245, 0);}
+#body{background-color: rgba(245, 245, 245, 0); height: fit-content;}
 form{display: inline;transition: 1s;}
 #searchbar{width:0px; height: 30px;border: solid 0px black; border-radius: 5px; margin-bottom: 50px;transition: 1s; }
 form{ margin-bottom: 10px; margin-top: 10px; float: right;transition: 1s; } 
-#butse{height: 40px; width: fit-content;font-size: 25px;cursor: pointer; display: inline-block; transition: 1s;
+#butse{height: fit-content; width: fit-content;font-size: 25px;cursor: pointer; display: inline-block; transition: 1s;
      color: rgb(73, 73, 73); background-color: rgb(0, 255, 106); border: solid black 3px;
       border-radius: 5px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; padding: 0px 5px 0px 5px;}
-#signup{height: 30px; width: fit-content; border: solid 3px white; float: right; 
-    margin: 5px 40px 10px 30px; border-radius: 30px; padding: 5px 10px 20px 10px;
+#signup{height: fit-content; width: fit-content; border: solid 3px white; float: right; 
+    margin: 5px 40px 10px 30px; border-radius: 30px; padding: 5px 10px 0px 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 35px  }
 #signup:hover{background-color: rgb(113, 231, 16);cursor: pointer; color: rgb(73, 73, 73); border: rgb(73, 73, 73) solid 3px;}
 #butse:hover{background-color: rgb(1, 114, 57); color: white;transition: 1s;}
@@ -27,10 +27,10 @@ cursor: default;}
 #sidli{list-style: none; padding-left: 0px;transition: 1s;overflow: hidden;}
 #sidebar{transition: 1s; width:0px; background-color: rgb(56, 56, 56);
      position: sticky;top: 70px;font-family: Verdana, Geneva, Tahoma, sans-serif;
-    float: left; margin-right: 40px; z-index: 1;height: fit-content; overflow: hidden;}
+    float: left; margin-right: 40px; z-index: 1;height: 550px; overflow: hidden;}
 
 .sidit:hover{background-color: rgb(80, 80, 80); margin-left: 30px; transition: 1s}
-.sidit{height: 50px; width: inherit; color: whitesmoke ; padding: 15px 5px 10px 20px; 
+.sidit{height: 70px; width: inherit; color: whitesmoke ; padding: 15px 5px 10px 20px; 
     transition: 1s; 
 font-size: 25px;}
 
@@ -41,13 +41,14 @@ font-size: 25px;}
 #l5{border-left: solid 10px rgb(255, 136, 0)}
 #l6{border-left: solid 10px red}
 
-#about{width: 100%; font-size: 25px; color: gray; text-align: center; padding-bottom: 2px; overflow: hidden;}
+#about{width: 100%; font-size: 25px; color: gray; text-align: center; padding-bottom: 2px; overflow: hidden;
+margin-top: 70px}
 
 .arrli{display: none; float: right; transition: 1s}
 .sidit:hover .arrli{display: inline;}
 #pab:hover{color: white; cursor: pointer;}
 
-#content{background-color: rgba(128, 128, 128, 0.566); height:inherit; width: 90%;
+#content{background-color: rgba(128, 128, 128, 0.566); height:fit-content; width: 90%;
     margin: 0px 20px 10px 10px; padding: 50px 50px 50px 50px;
 }
 #shb{padding: 5px 0px 5px 0px;
@@ -70,8 +71,8 @@ height: 100px; width: 100px;  border: solid black 3px; border-radius: 50%;}
     from{transform: rotate(10deg)}
     to{transform: rotate(-10deg)}
 }
-#tail{height: 300px; background-color: black; margin: 20px 20px 20px 20px;color:white;
-     display: block; position: relative; top: 100px;padding: 10px 50px 50px 50px}}
+#tail{height: fit-content; background-color: black; margin: 20px 20px 20px 20px;color:white;
+     display: block; position: relative; top: 100px;padding: 10px 50px 50px 50px; overflow: hidden;}
 h3{color: rgb(255, 255, 255);}
 #lang{list-style: none; color:  rgb(179, 179, 179); }
 video{ border: 2px solid black; margin-top: 50px; width: 35%; }
@@ -86,24 +87,25 @@ video{ border: 2px solid black; margin-top: 50px; width: 35%; }
 #Map{display: block; font-size: 40px; margin: 0px 20px 20px 40px; }
 #projects{background-color: rgba(255, 255, 255, 0); height: fit-content; margin-top: 100px;
      display: block; margin-left: 10px; float: right;width: 100%; }
-#projti{height: 80px; background-color: rgb(80, 80, 80); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+#projti{height: fit-content; background-color: rgb(80, 80, 80); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 font-size: 60px; color: whitesmoke; text-align: center; }
-#projcon{height: 260px; background-color: rgba(151, 151, 151, 0.541); padding: 20px 20px 20px 20px;}
+#projcon{height: fit-content; background-color: rgba(151, 151, 151, 0.541); padding: 20px 20px 20px 20px; overflow: hidden;}
 #seeall{height: 50px; transition: 1s; background-color: rgb(66, 219, 52); cursor: pointer; color: white;
 text-align: center; font-family: Arial, Helvetica; font-size: 30px; padding-top: 10px;}
 #seeall:hover{background-color: rgb(23, 156, 79); transition: 1s;}
 .project{height: fit-content;margin-top: 20px; width: 250px; background-color: rgb(212, 212, 212); padding: 10px 10px 10px 10px; margin-right: 20px; float: left;}
 .proimc{height: 160px;;}
-.proim{width: 250px; height: 160px;}
-.prov{width: 240px; height: 150px;position: relative; bottom: 165px; color: white;
-     text-align: center; opacity: 0;;transition: 0.5s; padding: 5px 5px 5px 5px }
+.proim{width: 220px; height: 150px;}
+.prov{width: 220px; height: 150px;position: relative; bottom: 150px; color: white;
+     text-align: center; opacity: 0;;transition: 0.5s; padding: 5px 5px 5px 5px; overflow: hidden;}
      .proimc:hover .prov{opacity: 1; transition: 0.5s;}
 
-.likeunli{height: 50px; background-color: white;font-family: Arial, Helvetica, sans-serif; font-size: 20px; margin: 3px;}
+.likeunli{height: 50px; background-color: white;font-family: Arial, Helvetica, sans-serif; font-size: 20px;
+     margin: 3px;}
 .like{width: 49%;cursor: pointer; background-color: rgb(211, 211, 211);
      float: left; height: 35px; padding: 5px 0px 5px 0px;text-align: center; border: 1px solid gray;}
 .unlike{width:49%; cursor: pointer; background-color:rgb(211, 211, 211);
-     float: right; height: 35px;padding: 10px 0px 0px 0px; text-align: center;border: 1px solid gray;}
+     float: right; height: 35px;padding: 5px 0px 5px 0px; text-align: center;border: 1px solid gray;}
 .like:hover{background-color: rgb(143, 143, 143)}
 .unlike:hover{background-color: rgb(143, 143, 143)}
 #prov1{background-color: teal;}
